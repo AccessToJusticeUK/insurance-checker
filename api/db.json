@@ -1,0 +1,49 @@
+{
+  "insurance_providers": [
+    {
+      "name": "AXA",
+      "directory_index": "a",
+      "type": "home",
+      "phone_numbers": {
+        "general_enquiries": "01234 567 890",
+        "claims": "0800 269 622"
+      }
+    },
+    {
+      "name": "AXA",
+      "directory_index": "a",
+      "type": "life",
+      "phone_numbers": {
+        "general_enquiries": "01234 567 890",
+        "claims": "0800 269 622"
+      }
+    },
+    {
+      "name": "AXA",
+      "directory_index": "a",
+      "type": "caravan",
+      "phone_numbers": {
+        "general_enquiries": "01234 567 890",
+        "claims": "0800 269 622"
+      }
+    },
+    {
+      "name": "Admiral",
+      "directory_index": "a",
+      "type": "home",
+      "phone_numbers": {
+        "general_enquiries": "01234 567 890",
+        "claims": "0800 269 622"
+      }
+    },
+    {
+      "name": "Badmiral",
+      "type": "life",
+      "directory_index": "b",
+      "phone_numbers": {
+        "general_enquiries": "01234 567 890",
+        "claims": "0800 269 622"
+      }
+    }
+  ]
+}

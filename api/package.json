@@ -1,0 +1,15 @@
+{
+  "name": "insurance-checker-api",
+  "version": "1.0.0",
+  "description": "A very simple API using JSON server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:verbose": "json-server --watch db.json --port 3004",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "json-server": "^0.12.1"
+  }
+}
