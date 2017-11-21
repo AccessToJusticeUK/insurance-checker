@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This mock API is currently built using [JSON Server](https://github.com/typicode/json-server). In order to add new endpoints or queries, please see JSON Server docs. All endpoints are managed in `db.json`.
+This mock API is currently built using [JSON Server](https://github.com/typicode/json-server). In order to add endpoints or queries, please see JSON Server docs. All endpoints are managed in `db.json`.
 
 ## Commands
 
