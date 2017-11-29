@@ -11,7 +11,7 @@
   };
 */
 var rewire = require('rewire');
-var proxyquire = require('proxyquire');
+// var proxyquire = require('proxyquire');
 
 switch(process.argv[2]) {
   // The "start" script is run during development mode
