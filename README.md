@@ -6,6 +6,10 @@
   ```
   heroku login
   ```
+- Set remote for deployment (if you haven't already - one off process - check with git remote -v)
+  ```
+  git remote add heroku https://git.heroku.com/insurancecheckergs.git
+  ```
 - Add and commit your changes
   ```
   git add .
