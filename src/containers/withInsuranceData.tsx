@@ -13,7 +13,7 @@ export const withInsuranceData = (WrappedComponent: typeof TabbedDirectory) => {
     }
 
     componentDidMount() {
-      console.log("env: " + process.env.NODE_ENV)
+      console.log('env: ' + process.env.NODE_ENV);
       const apiUrl: string = this.props.insuranceType ?
         `${API_URL}/insurance_providers?type_like=${this.props.insuranceType}` :
         `${API_URL}/insurance_providers`;
