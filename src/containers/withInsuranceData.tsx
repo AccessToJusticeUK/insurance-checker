@@ -31,8 +31,8 @@ export const withInsuranceData = (WrappedComponent: typeof TabbedDirectory) => {
     }
 
     render() {
-      const formattedInsuranceType = this.props.insuranceType ? `${this.props.insuranceType} ` : ''
-      const question = `Who supplies your ${formattedInsuranceType}insurance?`
+      const formattedInsuranceType = this.props.insuranceType ? `${this.props.insuranceType} ` : '';
+      const question = `Who supplies your ${formattedInsuranceType}insurance?`;
 
       return (
         <WrappedComponent

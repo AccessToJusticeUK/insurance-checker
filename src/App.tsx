@@ -7,8 +7,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <PopulatedInsuranceDirectory
-          insuranceType="life" />
+        <PopulatedInsuranceDirectory insuranceType="life" />
       </div>
     );
   }
