@@ -1,0 +1,29 @@
+{
+  "name": "insurance-checker",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@types/node": "^8.0.53",
+    "@types/react": "^16.0.25",
+    "@types/react-dom": "^16.0.3",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-scripts-ts": "2.8.0",
+    "rewire": "^3.0.2",
+    "shared-form-app": ">=0.1.3"
+  },
+  "scripts": {
+    "start": "node scripts/customised-config start",
+    "build": "node scripts/customised-config build",
+    "test": "react-scripts-ts test --env=jsdom",
+    "eject": "react-scripts-ts eject"
+  },
+  "devDependencies": {
+    "@types/enzyme": "^3.1.4",
+    "@types/fetch-mock": "^5.12.2",
+    "@types/jest": "^21.1.5",
+    "enzyme": "^3.2.0",
+    "enzyme-adapter-react-16": "^1.1.0",
+    "fetch-mock": "^5.13.1"
+  }
+}
