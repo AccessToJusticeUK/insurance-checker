@@ -1,1 +1,1 @@
-web: node scripts/customised-config start
+web: node scripts/customised-config build
