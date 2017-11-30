@@ -1,5 +1,29 @@
 ## Insurance App
 
+### How to deploy to Heroku
+- Install Heroku CLI: https://devcenter.heroku.com/articles/getting-started-with-nodejs#set-up
+- Login to Heroku (You can get the correct login credentials by contacting one of the developers on the project)
+  ```
+  heroku login
+  ```
+- Add and commit your changes
+  ```
+  git add .
+  git commit -m "your message"
+  ```
+- Push to Heroku
+  ```
+  git push heroku master
+  ```
+- Go to: https://insurancechecker.herokuapp.com or from cli:
+  ```
+  heroku open
+  ```
+- To run locally:
+  ```
+  heroku local web
+  ```
+
 ### Specific commands
 
 To update the `shared-form-app` which is listed using `>=` in `package.json` so it automatically updates:
