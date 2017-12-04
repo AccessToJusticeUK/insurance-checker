@@ -1,13 +1,13 @@
 import * as React from 'react';
 import './App.css';
-import { PagePreamble, PagePreambleSection } from 'shared-form-app';
-
-import { PopulatedInsuranceDirectory } from './components/PopulatedInsuranceDirectory';
+import { mockedData } from './data/mockedSteps';
+import { PagePreamble, PagePreambleSection, Home, NavigableStepsList } from 'shared-form-app';
 
 class App extends React.Component {
   render() {
     return (
       <div className="App">
+        <Home logoSrc={require('./media/logo.png')} title="Do I have Legal Expense Insurance?">
           <div>
             <PagePreamble>
               <PagePreambleSection>
@@ -21,8 +21,9 @@ class App extends React.Component {
                                 credit cards and insurance to hand.</p>
               </PagePreambleSection>
             </PagePreamble>
+            <NavigableStepsList steps={mockedData.steps} />
           </div>
-          <PopulatedInsuranceDirectory insuranceType="life" />
+        </Home>
       </div>
     );
   }
