@@ -7,7 +7,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <Home logoSrc={require('./media/logo.png')} title="Do I have Legal Expense Insurance?">
+        <Home logoSrc={require('./media/images/logo.png')} title="Do I have Legal Expense Insurance?">
           <div>
             <PagePreamble>
               <PagePreambleSection>
